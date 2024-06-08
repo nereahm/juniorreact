@@ -216,6 +216,11 @@ body {
 }
 .bloquesCambios {
   display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
 }
 .bloque {
   padding: 2rem 0 0 8rem;
@@ -324,8 +329,8 @@ body {
     padding: 0 1rem 0 0;
   }
   .bloquesCambios {
-    padding: 2rem 0;
-  }
+    padding: 2rem 0; 
+    }
   .elementoPersona {
     margin: 0.8rem 0;
     font-size: 18px;
