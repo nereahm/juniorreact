@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 function Inicio() {
   const [productos, setProductos] = useState([]);
   const [productoActual, setProductoActual] = useState(0);
-  const { VITE_API } = import.meta.env;
+  const VITE_API = import.meta.env.VITE_API;
 
   useEffect(() => {
     const obtenerProductos = async () => {
